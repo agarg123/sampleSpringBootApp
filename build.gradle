@@ -16,7 +16,7 @@ plugins {
 apply plugin: 'io.spring.dependency-management'
 apply plugin: 'jacoco'
 
-group 'com.sampleSpringBootApp'
+group 'com.moneyview'
 version '1.0-SNAPSHOT'
 sourceCompatibility = 1.8
 

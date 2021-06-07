@@ -3,5 +3,5 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
-rootProject.name = 'sampleSpringBootApp'
+rootProject.name = 'moneyview'
 

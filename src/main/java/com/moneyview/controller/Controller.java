@@ -1,4 +1,4 @@
-package com.sampleSpringBootApp.controller;
+package com.moneyview.controller;
 
 import io.swagger.annotations.*;
 import org.springframework.web.bind.annotation.*;

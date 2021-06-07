@@ -1,4 +1,4 @@
-package com.sampleSpringBootApp;
+package com.moneyview;
 
 import org.springframework.boot.*;
 import org.springframework.boot.autoconfigure.*;

@@ -1,4 +1,4 @@
-package com.sampleSpringBootApp;
+package com.moneyview;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -17,7 +17,7 @@ public class Swagger2Config {
     public Docket api() {
         return new Docket(DocumentationType.SWAGGER_2).select()
                 .apis(RequestHandlerSelectors
-                        .basePackage("com.sampleSpringBootApp"))
+                        .basePackage("com.moneyview"))
                 .paths(PathSelectors.regex("/.*"))
                 .build().apiInfo(apiEndPointsInfo());
     }
@@ -25,7 +25,7 @@ public class Swagger2Config {
     private ApiInfo apiEndPointsInfo() {
 
         return new ApiInfoBuilder().title("Spring Boot REST API")
-                .description("sampleSpringBootApp")
+                .description("moneyview")
                 .build();
     }
 }
